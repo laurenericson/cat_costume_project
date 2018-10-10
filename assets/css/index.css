@@ -1,11 +1,74 @@
 body {
-  margin: 0;
+  text-align: center;
+  margin: 1rem;
 }
+/*colors:
+#323232 - black
+#eeeeee - grey
+#00897f - green
+#f26522 - orange
+ */
+h1 {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 1rem;
+}
+.nav-links {
+  display: none;
+}
+#cat_with_skyline {
+  background-image: url("/Users/laurenericson/Desktop/CoderGirl/cat_costume_project/assets/images/kats-hero-mobile-bg.jpg");
+  display: flex;
+  justify-content: center;
+}
+h2 {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 1.8rem;
+}
+.text_descriptions {
+  font-family: 'PT Serif', serif;
+  text-align: left;
+  font-size: 1.3rem;
+  line-height: 2.5rem;
+  margin: .5rem;
+}
+h3 {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 1.6rem;
+  color: #00897f;
+  text-transform: uppercase;
+}
+#Kat_Mavis {
+  background-color: #eeeeee;
 
+}
+.cat3 img {
+  border-radius: 50%;
+}
+h4 {
+  display: none;
+}
+.contact {
+  background-color: #eeeeee;
+}
+footer {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 1rem;
+  color: white;
+  background-color: #00897f;
+}
 /* On devices wider than 660px */
 @media(min-width: 660px) {
+
 }
 
 /* On devices wider than 940px */
 @media(min-width: 940px) {
+  h4 {
+    display: block;
+  }
+  .nav-links {
+    display: block;
+  }
 }
