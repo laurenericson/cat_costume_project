@@ -46,10 +46,7 @@ h3 {
 }
 .cat3 img {
   border-radius: 50%;
-  margin-right: 1rem;
-  margin-left: 1rem;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+  margin: 2rem 1rem 1rem 1rem;
 }
 
 .get-in-touch{
@@ -103,17 +100,90 @@ footer {
 h4 {
 display: none;
 }
+.cat1 img,  .cat2 img{
+  display: none;
+}
+/* .cat2 img{
+  /* display: none;
+} */
 /* On devices wider than 660px */
 @media(min-width: 660px) {
-
+/* still struggling with getting nav to display correctly */
+/*need nav links to work */
+#header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  width: 7rem;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-transform: uppercase;
+  padding: 1rem;
+  margin-right: 1rem;
+}
+a {
+  text-decoration: none;
+}
+#Kat_Mavis {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+.about_descriptions {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  margin: 1rem;
+  background-color: #eeeeee;
+}
+.about_descriptions < .text_descriptions {
+  margin-top: 0;
+}
+.cat1 img , .cat2 img {
+  display: block;
+  border-radius: 50%;
+  margin: 2rem 1rem 1rem 1rem;
+}
+#cat_photos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#contact-section {
+  background-color: #eeeeee;
+}
+  h4 {
+    display: block;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.8rem;
+    padding-top: 3rem;
+    margin-top: 1rem;
+    padding-bottom: 0;
+    margin-bottom: 1rem;
+  }
+  .get-in-touch {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .business-contact , .contact-info {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 2rem 2rem 1rem;
+    padding: 1rem 1rem 1rem .5rem;
+    background-color: white;
+  }
 }
 
 /* On devices wider than 940px */
-@media(min-width: 940px) {
-  h4 {
-    display: block;
-  }
-  .nav-links {
-    display: block;
-  }
+@media(min-width: 1050px) {
+body {
+  width: 1050px;
+  margin-left: auto;
+  margin-right: auto;
+}
 }
