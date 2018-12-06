@@ -18,7 +18,7 @@ h1 {
   display: none;
 }
 #cat_with_skyline {
-  background-image: url("/Users/laurenericson/Desktop/CoderGirl/cat_costume_project/assets/images/kats-hero-mobile-bg.jpg");
+  background-image: url("./assets/images/kats-hero-mobile-bg.jpg");
   display: flex;
   justify-content: center;
 }
@@ -77,7 +77,7 @@ h5 {
 .map {
   display: flex;
   height: 20rem;
-  background-image: url("/Users/laurenericson/Desktop/CoderGirl/cat_costume_project/assets/images/kats-map.jpg");
+  background-image: url("./assets/images/kats-map.jpg");
   background-position: center;
   margin-top: 1rem;
 }
